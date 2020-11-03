@@ -63,12 +63,6 @@
 /bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
 /bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
 /bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
-/Controllers/HomeController.cs
-/Data/ApplicationDbContext.cs
-/Data/Migrations/00000000000000_CreateIdentitySchema.cs
-/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs
-/Data/Migrations/ApplicationDbContextModelSnapshot.cs
-/Models/ErrorViewModel.cs
 /obj/ACS.Web.csproj.nuget.dgspec.json
 /obj/ACS.Web.csproj.nuget.g.props
 /obj/ACS.Web.csproj.nuget.g.targets
