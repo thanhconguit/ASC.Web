@@ -6,20 +6,24 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ASC.Web.Models;
+using ASC.Web.Configuration;
+using Microsoft.Extensions.Options;
 
 namespace ASC.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        
 
-        public HomeController(ILogger<HomeController> logger)
+       
+        private IOptions<ApplicationSettings> _settings;
+        public HomeController(IOptions<ApplicationSettings> settings)
         {
-            _logger = logger;
+            _settings = settings;
         }
-
         public IActionResult Index()
         {
+            ViewBag.Title = _settings.Value.ApplicationTitle;
             return View();
         }
 
