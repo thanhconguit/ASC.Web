@@ -13,11 +13,9 @@ namespace ASC.Web.Controllers
 {
     public class HomeController : Controller
     {
-        
-
-       
-        private IOptions<ApplicationSettings> _settings;
-        public HomeController(IOptions<ApplicationSettings> settings)
+          
+        private IOptions<AppSettings> _settings;
+        public HomeController(IOptions<AppSettings> settings)
         {
             _settings = settings;
         }

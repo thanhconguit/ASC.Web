@@ -1,8 +1,5 @@
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.AssemblyInfoInputs.cache
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.AssemblyInfo.cs
-D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.csproj.CoreCompileInputs.cache
-D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.MvcApplicationPartsAssemblyInfo.cs
-D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.RazorAssemblyInfo.cache
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.RazorAssemblyInfo.cs
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.TagHelpers.input.cache
@@ -92,3 +89,7 @@ D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\staticwebassets\ASC.Web.StaticWebAssets.xml
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.genruntimeconfig.cache
 D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\bin\Debug\netcoreapp3.1\appsettings.Production.json
+D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.csprojAssemblyReference.cache
+D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.csproj.CoreCompileInputs.cache
+D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\My Projects\Automobile Service Center Application\ASC.Web\obj\Debug\netcoreapp3.1\ASC.Web.MvcApplicationPartsAssemblyInfo.cache

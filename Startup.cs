@@ -18,14 +18,10 @@ namespace ASC.Web
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, IWebHostEnvironment env)
+        public Startup(IConfiguration configuration)
         {
-            var builder = new ConfigurationBuilder()
-               .SetBasePath(env.ContentRootPath)
-               .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-               .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
-            builder.Build();
-            Configuration = configuration;
+            this.Configuration = configuration;
+
         }
 
         public IConfiguration Configuration { get; }
@@ -36,10 +32,10 @@ namespace ASC.Web
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)           
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddOptions();
-            services.Configure<ApplicationSettings>(Configuration.GetSection("AppSettings"));
+            services.Configure<AppSettings>(con => Configuration.GetSection("AppSetting").Bind(con));
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
@@ -47,7 +43,7 @@ namespace ASC.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-           
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

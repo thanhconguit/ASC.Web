@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ASC.Web.Configuration
 {
-    public class ApplicationSettings
+    public class AppSettings
     {
         public string ApplicationTitle { get; }
     }
